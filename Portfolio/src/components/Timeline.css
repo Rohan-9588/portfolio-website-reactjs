@@ -1,0 +1,22 @@
+.timeline-item {
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin-bottom: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.timeline-item:hover {
+    transform: translateY(-4px);
+}
+
+.timeline-section {
+    margin-bottom: 24px;
+}
+
+.timeline-section h3 {
+    color: #333;
+    margin-bottom: 12px;
+}
